@@ -9,6 +9,7 @@
 #include "mriya-layouts.dtsi"
 
 &mriya_layout {
+    kscan = <&kscan0>;
     transform = <&default_transform>;
 };
 
