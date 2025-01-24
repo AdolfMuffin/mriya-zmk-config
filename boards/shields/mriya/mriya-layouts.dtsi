@@ -53,7 +53,6 @@
             , <&key_physical_attrs 100 100  800  375  (-500)   850   425>
             ;
     };
-};
 
     mriya_position_map {
         compatible = "zmk,physical-layout-position-map";
@@ -69,3 +68,4 @@
         };
 
     };
+}
