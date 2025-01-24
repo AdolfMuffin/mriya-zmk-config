@@ -1,9 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout_0 {
+    mriya_layout: mriya_layout_0 {
         compatible = "zmk,physical-layout";
-        display-name = "default_layout";
+        display-name = "MRIYA";
 
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
