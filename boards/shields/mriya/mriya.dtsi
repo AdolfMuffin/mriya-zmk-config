@@ -9,7 +9,6 @@
 #include "mriya-layouts.dtsi"
 
 &mriya_layout {
-    kscan = <&kscan0>;
     transform = <&default_transform>;
 };
 
@@ -17,7 +16,6 @@
     chosen {
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
-        zmk,matrix-transform = &default_transform;
         zmk,physical-layout = &mriya_layout;
     };
 
