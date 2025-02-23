@@ -12,8 +12,6 @@ features:
 - display
 - studio
 siblings:
-- mriya_left
-- mriya_right
 - mriya_peripheral_left
 - mriya_peripheral_right
 - mriya_central_dongle
