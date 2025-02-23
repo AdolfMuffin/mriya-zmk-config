@@ -10,7 +10,7 @@ exposes:
 features:
 - keys
 - display
-- studio
+#- studio
 siblings:
 - mriya_left
 - mriya_right
