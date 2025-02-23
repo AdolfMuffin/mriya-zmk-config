@@ -3,13 +3,11 @@ if SHIELD_MRIYA_CENTRAL_DONGLE
 config ZMK_KEYBOARD_NAME
     default "MRIYA"
 
-config CONFIG_ZMK_KEYBOARD_NAME
-    default "MRIYA"
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-
+config ZMK_USB
+	default y
 
 endif
 
