@@ -32,7 +32,7 @@
 
 / {
     chosen {
-        zmk,kscan = &mock_kscan;
+        zmk,kscan = &kscan_0;
         zmk,physical-layout = &mriya_layout;
     };
 
@@ -52,7 +52,7 @@
         >;
     };
 
-mock_kscan: kscan_0 {
+kscan_0: kscan {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
