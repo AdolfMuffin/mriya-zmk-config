@@ -55,9 +55,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_COMMAND &kp LEFT_SHIFT>,
+                <&kp LS(LEFT_COMMAND)>,
                 <&macro_press>,
-                <&kp NUMBER_4>;
+                <&kp NUMBER_4>,
+                <&macro_release>,
+                <&kp LS(LEFT_COMMAND)>;
 
             label = "MAC_SCRN";
         };
